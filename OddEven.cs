@@ -10,7 +10,7 @@ namespace SimplePrograms
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter Number:");
+            Console.WriteLine("Enter number:");
             int a = int.Parse(Console.ReadLine());
 
             if(a % 2 == 0)
