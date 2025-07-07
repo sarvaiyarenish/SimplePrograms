@@ -1,26 +1,28 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace SimplePrograms
+namespace ConsoleApplication1
 {
-    internal class OddEven
+    class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter number:");
-            int a = int.Parse(Console.ReadLine());
+            int x;
+            string str;
 
-            if(a % 2 == 0)
+            Console.WriteLine("Enter Number : ");
+            str = Console.ReadLine();
+            x = Convert.ToInt32(str);
+
+            if (x % 2 == 0)
             {
-                Console.WriteLine("Given Number is Even");
+                Console.WriteLine("Number is Even");
             }
             else
             {
-                Console.WriteLine("Given Number is Odd");
+                Console.WriteLine("Number is Odd");
             }
+
+            Console.Read();
         }
     }
 }

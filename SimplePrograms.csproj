@@ -43,10 +43,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Factorial.cs" />
+    <Compile Include="Fibonacci.cs" />
+    <Compile Include="MobileNo.cs" />
+    <Compile Include="NameAndGender.cs" />
+    <Compile Include="NumberToWord.cs" />
     <Compile Include="OddEven.cs" />
+    <Compile Include="Pattern1.cs" />
+    <Compile Include="Pattern2.cs" />
+    <Compile Include="Pattern3.cs" />
+    <Compile Include="Pattern4.cs" />
+    <Compile Include="Pattern5.cs" />
     <Compile Include="Profile.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SameName.cs" />
+    <Compile Include="SumOfSeries.cs" />
+    <Compile Include="SumOfThreeNumber.cs" />
+    <Compile Include="Toggle.cs" />
+    <Compile Include="UpperCharacter.cs" />
+    <Compile Include="WhileLoop.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
