@@ -13,7 +13,7 @@ namespace SimplePrograms
             Console.Write("Enter the number of Terms: ");
             int t = int.Parse(Console.ReadLine());
 
-            Console.Write("Enter the number: ");
+            Console.WriteLine("Enter the number: ");
             int n = int.Parse(Console.ReadLine());
 
             int b = n, a = n;
@@ -22,9 +22,9 @@ namespace SimplePrograms
             {
                 n = b + (n * 10);
                 a = a + n;
+                Console.WriteLine(n);
             }
-
-            Console.WriteLine(a);
+            Console.WriteLine("Sum of series is:"+a);
         }
     }
 }
