@@ -13,7 +13,7 @@ namespace SameName
             Console.WriteLine("Enter Name:");
             string name = Console.ReadLine();
 
-            Console.WriteLine("Same Name:"+name);
+            Console.WriteLine("You Entered:"+name);
         }
     }
 }

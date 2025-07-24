@@ -10,10 +10,10 @@ namespace SimplePrograms
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter Name:");
+            Console.Write("Enter Name:");
             string name = Console.ReadLine();
 
-            Console.WriteLine("Enter Gender(M or F):");
+            Console.Write("Enter Gender(M or F):");
             string genderInput = Console.ReadLine();
 
             if (string.IsNullOrEmpty(genderInput) || genderInput.Length != 1)
@@ -21,11 +21,8 @@ namespace SimplePrograms
                 Console.WriteLine("Inavalid Gender Please enter (Male First letter) M Or (Female First Letter) F");
                 return;
             }
-
                 char gender = char.ToUpper(genderInput[0]);
-
                 string prefix = "";
-
                 if (gender == 'M')
                 {
                     prefix = "Mr.";

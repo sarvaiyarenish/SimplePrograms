@@ -1,14 +1,14 @@
 ﻿using System;  // Includes the System namespace for basic input/output operations
 
-namespace ConsoleApplication1  // Declares a namespace for the program
+namespace SimplePrograms  // Declares a namespace for the program
 {
-    class Factorial  // Declares a class named Program
+    internal class Factorial  // Declares a class named Program
     {
         public static void Main(string[] args)  // Main method - entry point of the program
         {
             int n, fact = 1;  // Declare integer variables n (for input number) and fact initialized to 1 (for factorial)
 
-            Console.WriteLine("Enter Number : ");  // Prompt user to enter a number
+            Console.Write("Enter Number : ");  // user to enter a number
 
             string str = Console.ReadLine();  // Read user input as a string
 

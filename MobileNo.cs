@@ -19,7 +19,7 @@ namespace MobileNo
             }
             else
             {
-                string masked = mobile.Substring(0,mobile.Length - 5)+"xxxxx";
+                string masked = mobile.Substring(0,mobile.Length - 5) + "xxxxx";
                 Console.WriteLine(masked);
             }
         }

@@ -10,10 +10,10 @@ namespace SimplePrograms
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter Name:");
+            Console.Write("Enter Name:");
             string name = Console.ReadLine();
             string upppername = name.ToUpper();
-            Console.WriteLine(upppername);
+            Console.WriteLine("UpperCharcter Name is:"+ upppername);
         }
     }
 }

@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArmstrongNumber.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="Factorial.cs" />
     <Compile Include="Fibonacci.cs" />
@@ -50,11 +51,13 @@
     <Compile Include="NameAndGender.cs" />
     <Compile Include="NumberToWord.cs" />
     <Compile Include="OddEven.cs" />
+    <Compile Include="OddEven1.cs" />
     <Compile Include="Pattern1.cs" />
     <Compile Include="Pattern2.cs" />
     <Compile Include="Pattern3.cs" />
     <Compile Include="Pattern4.cs" />
     <Compile Include="Pattern5.cs" />
+    <Compile Include="Pattern6.cs" />
     <Compile Include="Profile.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

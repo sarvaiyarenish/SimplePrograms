@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ConsoleApplication1
+namespace SimplePrograms
 {
     class Program
     {
@@ -9,17 +9,17 @@ namespace ConsoleApplication1
             int x;
             string str;
 
-            Console.WriteLine("Enter Number : ");
+            Console.Write("Enter Number : ");
             str = Console.ReadLine();
             x = Convert.ToInt32(str);
 
             if (x % 2 == 0)
             {
-                Console.WriteLine("Number is Even");
+                Console.WriteLine($"{x} Number is Even");
             }
             else
             {
-                Console.WriteLine("Number is Odd");
+                Console.WriteLine($"{x} Number is Odd");
             }
 
             Console.Read();
